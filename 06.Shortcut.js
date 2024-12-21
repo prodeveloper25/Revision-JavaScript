@@ -70,8 +70,8 @@ isActive && showUser();
 // use || if the left side is false then right side will be executed
 isActive || hideUser();
 
-/* 8. Toggle */
-console.log("8. Toggle");
+/* 8. Toggle Boolean*/
+console.log("8. Toggle Boolean");
 let isSuccess = true;
 const successResult = (isSuccess = !isSuccess);
 console.log("Operation 8.1 -", successResult);
