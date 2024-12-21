@@ -69,3 +69,15 @@ function firstAndLastName(first, last) {
 }
 const firstAndLastNameOutput = firstAndLastName("Nahid", "Hasan");
 console.log(firstAndLastNameOutput);
+
+/* 7. Object */
+// 7.1 3 ways to access object property
+const student = {
+  name: "Asratul Hasan Nahid",
+  age: 17,
+  designation: ["Programmer", "Reels Manager"],
+};
+const myNameIs = "name";
+console.log("First ways to access object property", student.designation); // direct by property
+console.log("Second ways to access object property", student["age"]); // access via property name string
+console.log("Third ways to access object property", student[myNameIs]); // access via property name in a variable
